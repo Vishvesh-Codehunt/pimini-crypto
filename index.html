@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+
+	<title>Pi Mini</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="mystyle.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+
+
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body style="background-color:black;">
+
+	<div class="loader_bg">
+    <div class="loader">
+
+    </div>
+  </div>
+	<!-- <video autoplay muted loop id="myVideo">
+		<source src="./img/background.mov" type="video/mp4">
+	  </video> -->
+<section id="banner2">
+	<!-- <div class="preloader"></div> -->
+	
+
+
+		<header class="header" style="position:fixed;">
+			<a href="#" class="logo">
+				<img src="./img/logo2.png">
+			</a>
+
+			<ul class="menu">
+				<li class="menu__item">
+					<a href="#about" class="menu__link">About</a>
+				</li>
+				<li class="menu__item">
+					<a href="#utility" class="menu__link">Utility</a>
+				</li>
+				<li class="menu__item">
+					<a href="#plans" class="menu__link">Plans</a>
+				</li>
+				<li class="menu__item">
+					<a href="#tokenomics" class="menu__link">Tokenomics</a>
+				</li>
+				<li class="menu__item">
+					<a href="#token_distri" class="menu__link">Token Distribution</a>
+				</li>
+				<li class="menu__item">
+					<a href="#roadmap" class="menu__link">Roadmap</a>
+				</li>
+				<li class="menu__item">
+					<a href="#nft" class="menu__link">NFT</a>
+				</li>
+				<li class="menu__item">
+					<a href="#team" class="menu__link">KYC</a>
+				</li>
+				
+			</ul>
+
+			<!-- <div class="header__right">
+				<div class="sign-in-wrap">
+					
+				</div>
+			</div> -->
+
+			<div class="btn-menu">
+				<div class="one"></div>
+				<div class="two"></div>
+				<div class="three"></div>
+			</div>
+		</header>
+
+		<div class="fixed-menu">
+			<div class="fixed-menu__header">
+				<a href="#" class="logo">
+				
+					<div class="logo__title">Pi Mini</div>
+				</a>
+	
+				<div class="btn-close">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 47.971 47.971" style="enable-background:new 0 0 47.971 47.971;" xml:space="preserve" width="512px" height="512px">
+							<path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z" fill="#006DF0"/></svg>
+				</div>
+			</div>
+	
+			<div class="fixed-menu__content">
+	
+				<ul class="mob-menu">
+					<li class="mob-menu__item">
+						<a href="#about" class="mob-menu__link">About</a>
+					</li>
+					<li class="mob-menu__item">
+						<a href="#utility" class="mob-menu__link">Utility</a>
+					</li>
+					<li class="mob-menu__item">
+						<a href="#plans" class="mob-menu__link">Plans</a>
+					</li>
+					<li class="mob-menu__item">
+						<a href="#tokenomics" class="mob-menu__link">Tokenomics</a>
+					</li>
+					<li class="mob-menu__item">
+						<a href="#token_distri" class="mob-menu__link">Token Distribution</a>
+					</li>
+					<li class="mob-menu__item">
+						<a href="#roadmap" class="mob-menu__link">Roadmap</a>
+					</li>
+					<li class="mob-menu__item">
+						<a href="#nft" class="mob-menu__link">NFT</a>
+					</li>
+					<li class="menu__item">
+						<a href="#team" class="mob-menu__link">KYC</a>
+					</li>
+				</ul>
+
+			
+				
+	
+			</div>
+		</div>
+
+		<section class="promo" style="background-position: 80% 100%">
+			<div class="container">
+
+				<div class="row mobile-view promo-mobile-view">
+					
+					<!-- <div class="social-links social-links-mobile">
+						<a href="https://discord.gg"><img src="./img/discord.png" style="height:35px;width:35px;" class="social-link opensea"></a><br>
+						<a href="https://t.me/PiMiniOfficial"><i class="fa fa-telegram social-link" aria-hidden="true"></i></a><br>
+  <a href="https://twitter.com/PiMiniOfficial?t=6wPeF1eGJ0FTCymBotjcFA&s=09"><i class="fa fa-twitter social-link" aria-hidden="true"></i></a><br>
+  
+					</div> -->
+					<div data-aos="fade-up" class="col-12 col-sm-12 col-lg-6 col-md-6 promo__content" >
+						<div class="myimage1234">
+							<img data-aos="fade-up" src="./img/pi.gif"   alt="" class="myimg123">
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 mobile-right">
+						<h1 style="color:white;" class="pimini-mobile"><span>Welcome to</span> Pi Mini</h1>
+						<p style="color:white;" class="pimini-p">
+							The First Ever Education Platform Linked With Crypto
+						</p>
+<div class="mobile-bg">
+						<div data-aos="fade-up" class="promo__btns-wrap" >
+							<a href="https://t.me/PiMiniOfficial" class="btn btn--medium join-mobile" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;"><span>Join Us</span></a>
+							<a href="./img/whitepaper.pdf" class="btn btn--big btn--blue" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;">WhitePaper</a>
+						</div>
+					</div>	
+					</div>
+				</div>
+				<div class="row desktop-view">
+					<div data-aos="fade-up" class="col-12 col-sm-12 col-lg-6 col-md-6 promo__content desktop-left" >
+						<h1 style="color:white;"><span>Welcome to</span> Pi Mini</h1>
+						<p style="color:white;">
+							The First Ever Education Platform Linked With Crypto
+						</p>
+		
+
+						<div data-aos="fade-up" class="promo__btns-wrap" >
+							<a href="https://t.me/PiMiniOfficial" class="btn btn--medium btn--blue" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;"><span>Join Us</span></a>
+							<a href="./img/whitepaper.pdf" class="btn btn--big btn--blue" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;">WhitePaper</a>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12">
+						<div class="myimage1234">
+							<img data-aos="fade-up" src="./img/pi.gif"  alt="" class="myimg123">
+						</div>
+					</div>
+				</div>
+
+		<section data-aos="fade-up" id="mytimer" >
+			<div class="container" >
+				<div class="row timer-row" >
+					
+					<div class="col-md-6 col-sm-12 col-12 col-lg-6 timer-left">
+						<h2 class="timer-h2">
+							ICO ending in
+						</h2>
+					
+
+<a href="https://logwork.com/countdown-s54s" class="countdown-timer" data-timezone="Asia/Kolkata" data-textcolor="#1a1a1a" data-date="2022-03-25 17:30" data-background="#1a1a1a" data-digitscolor="#fff" data-unitscolor="#fff">ICO Starting in</a>
+						
+					</div>
+					<div class="col-md-6 col-sm-12 col-12 col-lg-6 timer-right">
+						<h1 class="mytimer-h1">
+						 <a href="https://dappbuilder.org/bsc/tokensaleclaimtimeref/tokensale.html?id=0xdb8072903Ea77649BcC158f993ee01BDaCbEecc3&net=56" class="white-paper-btn" >ICO is Live</a>
+						</h1>
+						<div class="row indicator-row">
+							<div class="col-md-4 col-sm-4 col-4 col-lg-4">
+								<span class="indicator-p">Sale Raised</span>
+							</div>
+							
+							<div class="col-md-4 col-sm-4 col-4 col-lg-4">
+								
+							</div>
+							<div class="col-md-4 col-sm-4 col-4 col-lg-4" style="text-align: right;">
+								<span class="indicator-p">500 BNB HC</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+						  </div>
+
+						
+					
+					</div>
+				</div>
+				
+			
+			</div>
+		</section>
+		
+		<div class="container">
+		    <div style="text-align:center;margin-top:20px;">
+		        <a href="./first.pdf" class="btn btn-lg yourbtn" style="background:linear-gradient(to right,blue,#e600e6);border-left:none; padding-left:30px;
+	    padding-right:30px;">
+		            ✅ Audit
+		        </a>
+		        <a href="https://auditrate.tech/certificate/certificate_PiMini.html" class="btn btn-lg yourbtn" style="background:linear-gradient(to right,blue, #e600e6);border-left:none; padding-left:30px;
+	    padding-right:30px;">
+		           ✅ KYC
+		        </a>
+		        
+		    	</div>
+		    	
+		</div>
+	</section>
+	
+
+
+	<section id="myeight" >
+		<section class="economy" id="about" >
+			<div class="container">
+				<div class="row ">
+					<div data-aos="fade-up" class="col-md-4 col-sm-12 col-12 col-lg-4 mx-auto"  style="text-align: center;">
+						<img src="./img/about.png" class="myabout">
+					</div>
+					<div class="col-lg-8 col-sm-12 col-12 col-lg-8 mt-2">
+					
+						<div data-aos="fade-up" class="economy__block first-block" >
+							<div class="economy__block-content">
+								<div class="section-header section-header--white section-header--tire section-header--small-margin">
+									<h4>About PiMini</h4>
+							<h2 class="determine">Determine the future of<br>
+								Crypto Adoption
+								  </h2>
+						</div>
+						<div data-aos="fade-up" class="about__animated-content" >
+								
+
+
+							<p>
+								PiMini is the World's first-ever project made to combine education platforms with the crypto world.
+							</p>
+							<p>
+								<span>PiMini</span> is a governance token of <span>PiMini</span> project. The motive of the PiMini project is to bring out the adoption of cryptocurrency by education platforms to endure the Crypto use in a day to day life and it also provides an opportunity to become a professional developer in different niches like Frontend Developer, Backend Developer, Full stack Developer, Mobile Developer, Game Developer, Data Scientist Developer, Software Developer, NFT Artist.
+							</p>
+								
+							</div>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+	</section>
+
+		<section class="section desktop-viewt" id="about" style="background-color:black;">
+			<div class="container">
+				<div class="row">
+					<div data-aos="fade-up" class="col-lg-5 about-content" >
+					
+								<p>
+									PiMini is going to have its own educational website, application and a real life university. This is going to serve the online and offline teaching of competitive exams and crypto education world wide.
+								</p>
+								<p>
+									There will be two options to get enrolled. First is to opt for the online education where you can get access to your chosen courses by sitting in any part of the world with the help of our crypto integrated educational website and platforms .
+								</p>
+								<p>
+									The second way of learning is to join the PiMini university and learn by attending the classes physically in completely different university environment where you have a real life experience of using your PiMini tokens within the university for different aspects.
+								</p>
+									
+								
+						</div>
+				
+					<div data-aos="zoom-in" class="col-lg-6 offset-lg-1 align-items-center" >
+						
+						<video class="pimini-video" autoplay muted loop playsinline>
+							<source src="./img/video/myvideo.mov" type="video/mp4">
+						
+						  Your browser does not support the video tag.
+						  </video>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+	
+
+		<section id="myseventh" class="mobile-view seventh-about">
+		<section class="section about" >
+			<div class="container">
+				<div class="row">
+					<div data-aos="fade-up" class="col-lg-6 offset-lg-1 align-items-center">
+						<!-- <img src="./img/myimg/Asset-1@2x-3.png" class="about__img img-responsive" alt=""> -->
+						<video class="pimini-video" autoplay muted loop playsinline>
+							<source src="./img/video/myvideo.mov" type="video/mp4">
+							<!-- <source src="movie.ogg" type="video/ogg"> -->
+						  Your browser does not support the video tag.
+						  </video>
+					</div>
+					
+						<div data-aos="fade-up" class="col-lg-5 about-pimini">
+						<div class="section-header section-header--animated section-header--tire section-header--small-margin">
+							<!-- <h4>About PiMini</h4>
+							<h2 class="determine">Determine the future of Crypto adoption
+								  </h2> -->
+						</div>
+						<div data-aos="fade-up" class="about__animated-content">
+							<p>
+								PiMini is going to have its own educational website, application and a real life university. This is going to serve the online and offline teaching of competitive exams and crypto education world wide.
+							</p>
+							<p>
+								There will be two options to get enrolled. First is to opt for the online education where you can get access to your chosen courses by sitting in any part of the world with the help of our crypto integrated educational website and platforms .
+							</p>
+							<p>
+								The second way of learning is to join the PiMini university and learn by attending the classes physically in completely different university environment where you have a real life experience of using your PiMini tokens within the university for different aspects.
+							</p>
+						</div>
+					
+				</div>
+			</div>
+			</div>
+		</section>
+	</section>
+
+
+		<section class="economy" id="utility">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-12 col-12 col-lg-2">
+
+					</div>
+					<div class="col-lg-8 col-sm-12 col-12 col-lg-8">
+
+						<div class="economy__block shadow">
+							<div data-aos="fade-up" class="economy__block-content " >
+								<div class="section-header section-header--white section-header--tire section-header--small-margin">
+									<h4>Never ending Utility</h4>
+							<h2 class="determine">PiMini Utility
+								  </h2>
+									
+								</div> 
+								<p>
+									Utility of a token is something which can decide the future of the project. In that case the utility of PiMini token plays an important role.
+								</p>
+								<p>
+									The fee for the courses bought by students will be paid in the form of PiMini tokens. The education platform is something which is going to run forever unlike the other crypto trends which get extinguish after the trend ends. This will allow the buying flow for ever. Along with the fee all other stationery items , edibles, hostel charges, library and many more things present in the university to be bought and paid with PiMini tokens only.
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-12 col-12 col-lg-2">
+
+					</div>
+				</div>
+			</div>
+			<!-- <img src="img/video-bg.png"  alt="" class="economy__bg"> -->
+		</section>
+
+	
+		<!-- <section class="partners-logo" id="partners-logo" >
+			<div class="container">
+				<div class="row">
+					<div data-aos="fade-up" class="col">
+						
+					</div>
+				</div>
+			</div>
+			<img src="img/partenrs-bg.png" data-jarallax-element="20" alt="" class="partners-logo__bg">
+		</section> -->
+
+		<section id="fifth">
+		<section class="section cases" id="plans" >
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section-header section-header--animated section-header--center section-header--medium-margin">
+							<div style="position:relative;bottom:40px;">
+							<!-- <h4 data-aos="fade-up" style="position:relative;bottom:50px;">Plans</h4> -->
+							<h2 data-aos="fade-up" class="determine" style="background: linear-gradient(to right,#ff3300,#ff3300,#3333ff,#3333ff
+							);
+							-webkit-text-fill-color: transparent;
+							-webkit-background-clip: text;position:relative;top:50px; ">PiMini Plans
+							</h2>
+							<div class="bg-title" style="opacity:0.2;">
+								PiMini Plans
+							</div>
+						</div>
+							<p data-aos="fade-up" style="color:#aab2cd;font-weight:300;margin-top:80px;">
+								PiMini is basically working on online and offline aspects. The online aspects cosist of educational website and application that is integrated with crypto wallet. The website and application will run through three tests before releasing the final version.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col cases__list">
+						<div data-aos="fade-up" class="cases__item">
+							<!-- <img src="img/cases-icon-1.png" alt="" class="cases__item-icon"> -->
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Alfa Testing
+								</div>
+								<p class="cases__item-text">
+									The first test is Alpha testing. Alpha testing is a type of software testing performed to identify bugs before releasing the product to real users or to the public. Alpha Testing is one of the user acceptance testing. It is performed at developer's site.
+
+								</p>
+							</div>
+						</div>
+						<div data-aos="face-right" data-aos-delay="200" class="cases__item">
+							<!-- <img src="img/cases-icon-2.png" alt="" class="cases__item-icon"> -->
+							<div data-aos="fade-up" class="cases__item-content" >
+								<div class="cases__item-title">
+									Beta Testing
+								</div>
+								<p class="cases__item-text">
+									The second test is Beta testing. Beta testing provides insights into product functionality, and also helps you better understand user experience. Going beyond lab performance tests, beta testing reveals whether or not the same level of performance is achievable in actual user environments.
+								</p>
+							</div>
+						</div>
+						<div data-aos="fade-up" class="cases__item">
+							<!-- <img src="img/cases-icon-3.png" alt="" class="cases__item-icon"> -->
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Release Candidate Testing
+								</div>
+								<p class="cases__item-text">
+									The third test is Release candidiate. This is the stage of product stabilization, all product features have been designed, coded and tested through one or more beta cycles with no known showstopper-class bugs. A release is called code complete when the development team agrees that no entirely new source code will be added to this release.
+								</p>
+							</div>
+						</div>
+						<div data-aos="fade-up" data-aos-delay="200" class="cases__item">
+							<!-- <img src="img/cases-icon-4.png" alt="" class="cases__item-icon"> -->
+							<div class="cases__item-content">
+								<div class="cases__item-title">
+									Final Stage
+								</div>
+								<p class="cases__item-text">
+									The next is Final stage. In final stage software product is released and is made available in the market for selling and purchasing of services, after completing all marketing formalities and commercialization activities, which may include security and compliance testing, along with the nationwide or the worldwide availability of the product.
+
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<!-- <div class="row">
+					<a href="" class="btn btn--orange btn--uppercase join-btn"><span>Join Us</span></a>
+				</div> -->
+			</div>
+			<!-- <img src="img/cases-bg.png"  class="cases__bg" alt="">
+			<img src="img/cases-imgs.png"  class="cases__elements" alt=""> -->
+		</section>
+
+	</section>
+	
+	
+		<section class="economy" id="plans">
+			<div class="container">
+				<div class="row">
+					<div data-aos="fade-up" class="col-md-4 col-sm-12 col-12 col-lg-4" >
+						<img src="./img/plans.png" class="myplan">
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12 col-12 mt-2">
+
+						
+
+						<div class="economy__block block2">
+							<div data-aos="fade-up" class="economy__block-content">
+								<div class="section-header section-header--white section-header--tire section-header--small-margin">
+									<h4 class="determine">PiMini Plans</h4>
+									
+								</div>
+								<p>
+									The full working website and application will be live in less than 1 month.
+								</p>
+								<p>
+									The next is to follow up the construction of University. As soon as the online platform is live the company will start with the next goal of offline project that is the World’s first real life Crypto University. 
+								</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			
+			<!-- <img src="img/video-bg.png"  alt="" class="economy__bg"> -->
+			<section id="fourth">
+		<section class="section section--no-pad-bot facts">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section-header section-header--animated section-header--center section-header--small-margin">
+						
+							<h2 data-aos="fade-up" class="determine stages-h2">There are 5 stages in which the construction will take place.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="facts__line">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="facts__line-list">
+								<div  data-aos="fade-up" class="facts__item">
+									<div class="img-div">
+										<img src="img/bitcon-round.png" class="facts__icon" alt="">
+									</div>
+										<div class="facts__title">
+											Conception
+										</div>
+									</div>
+									<div data-aos="fade-up" class="facts__item">
+										<img src="img/stellar-round.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Planning & Design
+										</div>
+									</div>
+									<div data-aos="fade-up" class="facts__item" >
+										<img src="img/counterparty-round.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Construction
+										</div>
+									</div>
+									<div data-aos="fade-up" class="facts__item">
+										<img src="img/lisk.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Commissioning & Turnover
+										</div>
+									</div>
+									<div data-aos="fade-up" class="facts__item">
+										<img src="img/eos-round.png" class="facts__icon" alt="">
+										<div class="facts__title">
+											Occupancy
+										</div>
+									</div>
+							</div>
+						</div>
+						<p data-aos="fade-up" class="myp">
+							The construction will be initiated in California with the space of 8000 acres, the size is subject to change ( this is the approximate area size, may differ from the actual size ). Our top level builder company will try to complete the construction between 6-12 months. Official news and big picture promotions will be made. There will be Global collaborations with educational platforms. The university will be inaugurated with in the given deadline. Franchisees will be sold world wide and the next stage of the project of establishing the PiMini universities in all the major countries of the world will begin ....
+						</p>
+					</div>
+					
+				</div>
+				<!-- <img src="img/facts-bg.png" class="facts__bg" alt=""> -->
+			</div>
+			
+		</section>
+	</section>
+</section>
+	
+		<!-- <section class="docs" id="docs">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section-header section-header--animated seaction-header--center section-header--tire section-header--medium-margin">
+							<h4>Our files</h4>
+							<h2>Documents</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6 col-12">
+						<a href="" class="doc">
+							<div class="doc__content">
+								<img src="img/pdf.svg" alt="">
+								<div class="doc__title">
+									Terms & Conditions
+								</div>
+							</div>
+						</a>
+					</div>
+					<div data-aos="fade-up" data-aos-delay="200" class="col-lg-3 col-md-6 col-sm-6 col-12">
+						<a href="" class="doc">
+							<div class="doc__content">
+								<img src="img/pdf.svg" alt="">
+								<div class="doc__title">
+									White Pappers
+								</div>
+							</div>
+						</a>
+					</div>
+					<div data-aos="fade-up" data-aos-delay="400" class="col-lg-3 col-md-6 col-sm-6 col-12">
+						<a href="" class="doc">
+							<div class="doc__content">
+								<img src="img/pdf.svg" alt="">
+								<div class="doc__title">
+									Privacy Policy
+								</div>
+							</div>
+						</a>
+					</div>
+					<div data-aos="fade-up" data-aos-delay="600" class="col-lg-3 col-md-6 col-sm-6 col-12">
+						<a href="" class="doc">
+							<div class="doc__content">
+								<img src="img/pdf.svg" alt="">
+								<div class="doc__title">
+									Business Profile
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<img src="img/docs-bg.png" data-jarallax-element="40" alt="" class="docs__bg">
+		</section> -->
+
+		<!-- <section id="third"> -->
+		<div id="tokenomics">
+			<div  class="tokenomics1" style="background: linear-gradient(black,black,black,black,white);">
+			<div data-aos="fade-up" class="section-header section-header--animated section-header--medium-margin section-header--center">
+				<h2 class="determine" style="background: linear-gradient(to right,#ff3300,#ff3300,#3333ff,#3333ff
+				);
+				-webkit-text-fill-color: transparent;
+				-webkit-background-clip: text; position:relative;top:0px;font-size:34px;">Tokenomics</h2>
+				<div class="bg-title" style="position: relative;top:10px;opacity:0.2;">
+					Tokenomics
+				</div>
+			</div>
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content" data-aos="fade-up">
+						<h1 class="token-h1">
+							4% A great passive income 
+						</h1>
+						<h4 class="token-h4">
+							4% of every transaction is automatically redistributed to every holder. 
+						</h4>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" data-aos="fade-up">
+						<img src="./img/myimg/1.png" class="tokenomics-img myimage">
+					</div>
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 " data-aos="fade-up">
+						<img src="./img/myimg/liquidity.png" class="tokenomics-img myimage">
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content" data-aos="fade-up">
+						<h1 class="token-h1">
+							4% Goes to liquidity pool 
+						</h1>
+						<h4 class="token-h4">
+							4% of every transaction goes to the liquidity pool in Pancakeswap thereby ensuring the stable price and reliability of $PiMini Token.  
+						</h4>
+					</div>
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content left-part" data-aos="fade-up">
+						<h1 class="token-h1">
+							1% Goes to charity 
+						</h1>
+						<h4 class="token-h4">
+							1% of every transaction goes to charity for a good cause 
+						</h4>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" data-aos="fade-up">
+						<img src="./img/myimg/2.png" class="tokenomics-img myimage">
+					</div>
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" data-aos="fade-up">
+						<img src="./img/myimg/marketing.png" class="tokenomics-img myimage" >
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content" data-aos="fade-up">
+						<h1 class="token-h1">
+							1% Goes to marketing   
+						</h1>
+						<h4 class="token-h4 ">
+							1% of every transaction goes to a marketing wallet in bnb, this constitutes a funding capacity for the marketing expenditures in the future.   
+						</h4>
+					</div>
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content left-part" data-aos="fade-up">
+						<h1 class="token-h1 locked-h1">
+							Locked liquidity  
+						</h1>
+						<h4 class="token-h4 locked-h4">
+							Liquidity will be locked for 12 months on PinkSale.   
+						</h4>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" style="text-align: center;" data-aos="fade-up">
+						<img src="./img/myimg/locked.png" class="tokenomics-img myimage locked">
+					</div>
+				</div>
+			</div>
+			</div>
+			<!-- <img src="img/cases-bg.png"  class="cases__bg" alt=""> -->
+		<!-- </section> -->
+	</div>
+
+
+		<!-- <section id="tokenomics" class="tokenomics2"> -->
+			<div id="tokenomics">
+			<div  class="tokenomics2" style="background: linear-gradient(black,black,black,black,white);">
+			<div data-aos="fade-up" class="section-header section-header--animated section-header--medium-margin section-header--center">
+				<h4>Our Tokenomics</h4>
+				<h2 class="determine">Tokenomics</h2>
+				<div class="bg-title" style="opacity:0.2;">
+					Tokenomics
+				</div>
+			</div>
+			<div class="container">
+				
+				<div class="row"> 
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" data-aos="fade-up">
+						<img src="./img/myimg/1.png" class="tokenomics-img myimage">
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content" data-aos="fade-up">
+						<h1 class="token-h1">
+							4% A great passive income 
+						</h1>
+						<h4 class="token-h4">
+							4% of every transaction is automatically redistributed to every holder. 
+						</h4>
+					</div>
+					
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 " data-aos="fade-up">
+						<img src="./img/myimg/liquidity.png" class="tokenomics-img myimage">
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content" data-aos="fade-up">
+						<h1 class="token-h1">
+							4% Goes to liquidity pool 
+						</h1>
+						<h4 class="token-h4">
+							4% of every transaction goes to the liquidity pool in Pancakeswap thereby ensuring the stable price and reliability of $PiMini Token.  
+						</h4>
+					</div>
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" data-aos="fade-up">
+						<img src="./img/myimg/2.png" class="tokenomics-img myimage">
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content left-part" data-aos="fade-up">
+						<h1 class="token-h1">
+							1% Goes to charity 
+						</h1>
+						<h4 class="token-h4">
+							1% of every transaction goes to charity for a good cause 
+						</h4>
+					</div>
+					
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" data-aos="fade-up">
+						<img src="./img/myimg/marketing.png" class="tokenomics-img myimage">
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content" data-aos="fade-up">
+						<h1 class="token-h1">
+							1% Goes to marketing   
+						</h1>
+						<h4 class="token-h4 ">
+							1% of every transaction goes to a marketing wallet in bnb, this constitutes a funding capacity for the marketing expenditures in the future.   
+						</h4>
+					</div>
+				</div>
+
+				<div class="row row-1">
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12" style="text-align: center;" data-aos="fade-up">
+						<img src="./img/myimg/locked.png" class="tokenomics-img myimage locked">
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 col-12 token-content left-part" data-aos="fade-up">
+						<h1 class="token-h1 locked-h1-1">
+							Locked liquidity  
+						</h1>
+						<h4 class="token-h4 locked-h1-2">
+							Liquidity will be locked for 12 months on PinkSale.   
+						</h4>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<!-- </section> -->
+	<!-- </section> -->
+		<!-- <section id="combine"> -->
+		<!-- <section class="data token-data section section--no-pad-bot" id="token_distri" > -->
+			<div id="token_distri" style="background: linear-gradient(white,white,black,black,black);">
+			<div class="container">
+				<div class="row">
+					<div class="col" data-aos="fade-up">
+						<div class="section-header section-header--animated section-header--medium-margin section-header--center" style="position: relative;bottom:70px;" data-aos="fade-up">
+							<h2 class="determine token-detr determine2" style="background: linear-gradient(to right,#ff3300,#ff3300,#3333ff,#3333ff
+							);
+							-webkit-text-fill-color: transparent;
+							-webkit-background-clip: text; position:relative;top:50px;font-size:34px;">Token Distribution</h2>
+							<div class="bg-title determine" style="opacity:0.2;">
+								Token Distribution
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-12 col-lg-4">
+					    
+					</div>
+					<div class="col-md-4 col-sm-12 col-12 col-lg-4">
+					    <img src="./img/mypie.png" class="pie-img" style="height:100%;width:100%;">
+					</div>
+					<div class="col-md-4 col-sm-12 col-12 col-lg-4">
+					    
+					</div>
+				</div>
+			</div>
+				<div class="row chart__row align-items-center">
+					<div class="col-lg-6">
+						
+						<div class="chart">
+							<img class="chart__bg" src="img/chart-bg.png" alt="">
+							<div class="chart__wrap">
+								<canvas id="myChart" width="400" height="400"></canvas>
+							</div>
+						</div>
+					</div>
+					<div data-aos="face-right" class="col-lg-6 token-data__animated-content">
+						<div class="chart__title">
+							Allocation of funds
+						</div>
+						
+						<ul class="chart__legend">
+							<li>
+								<span style="width: 22px;"></span>
+								5% Dev 
+							</li>
+							<li>
+								<span style="width: 44px;"></span>
+								10% Private Institue
+							</li>
+							<li>
+								<span style="width: 44px;"></span>
+								10% Owner
+							</li>
+							<li>
+								<span style="width: 100px;"></span>
+								13% Staking and Rewards
+							</li>
+							<li>
+								<span style="width: 200px;"></span>
+								20% Event Burn
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row chart__row align-items-center second-chart">
+					
+					<div data-aos="face-right" class="col-lg-6 token-data__animated-content">
+						<div class="chart__title">
+							Allocation of funds
+						</div>
+						
+						<ul class="chart__legend">
+							<li>
+								<span style="width: 30px;"></span>
+								6% ICO
+							</li>
+							<li>
+								<span style="width: 55px;"></span>
+								10% Locked liquidity
+							</li>
+							<li>
+								<span style="width: 44px;"></span>
+								10% Initial Burn
+							</li>
+							<li>
+								<span style="width: 100px;"></span>
+								16% Presale
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-6">
+						<!-- <img src="./img/tokenomics1.jpeg" style="height:100%;width:100%;"> -->
+						<div class="chart">
+							<img class="chart__bg" src="img/chart-bg.png" alt="">
+							<div class="chart__wrap">
+								<canvas id="myChart2" width="400" height="400"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- </section> -->
+
+
+		<!-- <section class="section map"  > -->
+			<div class="container" id="roadmap">
+				<div class="row">
+					<div class="col" data-aos="fade-up">
+						<div class="section-header section-header--animated section-header--center section-header--medium-margin" style="position: relative;bottom:50px;">
+							
+							<h2 class="determine token-detr determine2" style="background: linear-gradient(to right,#ff3300,#ff3300,#3333ff,#3333ff
+							);
+							-webkit-text-fill-color: transparent;
+							-webkit-background-clip: text; position:relative;top:50px;font-size:34px;">Road Map</h2>
+							<div class="bg-title" style="opacity:0.2;">
+								Roadmap
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" data-aos="fade-up">
+					<img src="./img/myimg/newP2.png" class="pie-image">
+				</div>
+				<div class="row myroadmap">
+					<div class="col-lg-6 offset-lg-4 col-sm-8 offset-sm-4">
+
+						<div class="road">
+							<div class="road__item">
+								<div class="road__item-metka"></div>
+								<div class="road__item-content">
+									<div class="road__item-title determine">
+										Phase 1
+									</div>
+									<p>
+										Website<br>
+										Social Platforms<br>
+										Audit<br>
+										ICO<br>
+										Marketing<br>
+										Presale<br>
+										PiMini NFT with utility
+									</p>
+								</div>
+								
+							</div>
+
+							<div class="road__item">
+								<div class="road__item-metka"></div>
+								<div class="road__item-content">
+									<div class="road__item-title determine">
+										Phase 2
+									</div>
+									<p>
+										Heavy marketing<br>
+										Launch PiMini Contract<br>
+										Early updates about website & application<br>
+										Integration of PiMini into Web & App<br>
+										Alpha Testing<br>
+										Launch Pimini Staking<br>
+										Token listing on 3 exchanges<br>
+										Marketing in Educational Fields<br>
+										Hiring Online Instructors
+									</p>
+								</div>
+								
+							</div>
+
+							<div class="road__item">
+								<div class="road__item-metka"></div>
+								<div class="road__item-content">
+									<div class="road__item-title determine">
+										Phase 3
+									</div>
+									<p>
+										Collaboration with Educational hubs<br>
+										Beta version of Web & App <br>
+										1000 enrolment giveaways Stage of Web and App<br>
+										Final release stage of Web and App
+									</p>
+								</div>
+							</div>
+
+							<div class="road__item">
+								<div class="road__item-metka"></div>
+								<div class="road__item-content">
+									<div class="road__item-title determine">
+										Phase 4
+									</div>
+									<p>
+										Starting construction for World's first Crypto University<br>
+										Official news and big picture promotions<br>
+										Inaugration of University<br>
+										selling Franchise world wide<br>
+										University construction in all the major countires over the world
+									</p>
+								</div>
+							</div>
+
+								
+						</div>
+
+					</div>
+				</div>
+				<img data-aos="fade-up" src="img/road_map.png" data-jarallax-element="-40" alt="" class="map__title-bg">
+			</div>
+		<!-- </section>  -->
+	</div>
+	<!-- </section> -->
+		
+
+	
+		<div class="container" id="nft">
+		<div class="row">
+			<div class="col" data-aos="fade-up">
+				<div class="section-header section-header--animated section-header--center section-header--medium-margin" style="position: relative;bottom:50px;">
+					
+					<h2 class="determine token-detr determine2" style="background: linear-gradient(to right,#ff3300,#ff3300,#3333ff,#3333ff
+					);
+					-webkit-text-fill-color: transparent;
+					-webkit-background-clip: text; position:relative;top:50px;font-size:34px;">PiMini NFT</h2>
+					<div class="bg-title" style="opacity:0.2;">
+						PiMini NFT
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-md-2 col-sm-12 col-12 col-lg-2">
+
+			</div>
+			<div class="col-md-8 col-sm-12 col-12 col-lg-8">
+				<p class="myp" data-aos="fade-up">
+					PiMini NFTs provide you actual utility where you can use these NFTs for a specified number of times to avail discount on purchases. The special algorithm will keep a track of number of times an NFT has been used for discounts. Once the usage limit comes to zero you can refill it with PiMini tokens. More the number of times an NFT exceeds its usage limit and get refilled, more rare and valuable it becomes.
+				</p>
+			</div>
+			<div class="col-md-2 col-sm-12 col-12 col-lg-2">
+				
+			</div>
+		</div>
+		</div>
+		<div class="nft-bg">
+		<div class="container">
+				<div class="row nft-row">
+					
+					<div class="col-md-12 col-sm-12 col-12 col-lg-4 video1"  style="text-align: center;">
+						<div class="video-bg">
+						    <img src="./img/video/Elite Book.gif" data-aos="fade-up" class="mynft elite">
+						<!--<video class="mynft elite" autoplay muted loop playsinline data-aos="fade-up">-->
+						<!--	<source src="./img/video/Elite Book.gif" type="video/mp4">-->
+						<!--  Your browser does not support the video tag.-->
+						<!--  </video>-->
+						  <h1 class="video-h1" data-aos="fade-up">
+							Elite Book
+						  </h1>
+						  <p class="video-p" data-aos="fade-up">
+							 This NFT can be used 100 times to avail 30% discount on each time you buy a course or product from online or from the university. There will be 100 Elite book NFTs.
+						</p>
+						<!-- <a href="#" class="btn white-btn btn-lg mybtn" type="button" onclick="alertmsg()">Buy</span></a> -->
+					<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/65921785334541695659787946935007982608836404916186438967088522474505914810468" target="_blank">	<button  data-aos="fade-up" class="btn btn-lg white-btn mybtn" type="button" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;" onclick="alertmsg()">Buy</button></a>
+					
+						</div>
+						
+					</div>
+					<div class="col-md-12 col-sm-12 col-12 col-lg-4 video1"  style="text-align: center;">
+						<div class="video-bg">
+						<video class="mynft" autoplay muted loop playsinline data-aos="fade-up">
+							<source src="./img/video/Library.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						  </video>
+						  <h1 class="video-h1" data-aos="fade-up">
+							Library
+						  </h1>
+						  <p class="video-p" data-aos="fade-up">
+							
+							This NFT gives you a title of Library Ambassador. You can use this NFT 75 times to avail 20% discount on every purchase you make on PiMini online/offline platform. There will be 100 library NFTs.
+						</p>
+					<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/65921785334541695659787946935007982608836404916186438967088522475605426438244" target="_blank">	<button data-aos="fade-up" class="btn btn-lg white-btn mybtn" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;" type="button" onclick="alertmsg()">Buy</button></a>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-12 col-lg-4 video1"  style="text-align: center;">
+						<div class="video-bg">
+						<video class="mynft" data-aos="fade-up" autoplay muted loop playsinline>
+							<source src="./img/video/Student Room.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						  </video>
+						  <h1 class="video-h1" data-aos="fade-up">
+							Hostel Room
+						  </h1>
+						  <p class="video-p" data-aos="fade-up">
+							 This NFT gives you a title of Hostel Ambassador. You can use this NFT 50 times to avail 10% discount on every purchase you make on PiMini online/offline platform. There will be 100 hostel room NFTs.
+						</p>
+					<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/65921785334541695659787946935007982608836404916186438967088522476704938066020" target="_blank">	<button data-aos="fade-up" class="btn btn-lg white-btn mybtn" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;" type="button" onclick="alertmsg()">Buy</button></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-5 video2-row">
+					<div class="col-md-2 col-sm-12 col-12 col-12 col-lg-2">
+
+					</div>
+					<div class="col-md-8 col-sm-12 col-12 col-12 col-lg-8 video1 mx-auto" style="text-align: center;">
+						<div class="video-bg">
+							<video data-aos="fade-up" style="text-align:center;" autoplay muted loop class="video2" playsinline data-aos="fade-up">
+								<source src="./img/video/Pimini University.mp4" type="video/mp4">
+							  Your browser does not support the video tag.
+							  </video>
+							  <h1 class=" king-h1" style="text-align:center;" data-aos="fade-up">
+								King NFT
+							  </h1>
+							  <p class="video-p" data-aos="fade-up" style="text-align:center;">
+								This NFT is the king of all other NFTs of PiMini which represents the whole University. There will be only 1 copy of this NFT and the person who owns this NFT will be called as the PiMini King/Queen. King NFT can be used unlimited times to avail 50% discount on every purchase you make.
+							</p>
+							<p class="video-p" data-aos="fade-up">
+								The specialty of king NFT lies in its royalty. You will get -
+								<div style="text-align:center;" data-aos="fade-up">
+								0.5% of the trading volume.<br>
+								1% monthly shares from the online purchases made by users.<br>
+								1% monthly shares from the offline purchases made by users.</div>
+							</p>
+							<button data-aos="fade-up" class="btn btn-lg white-btn mybtn" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;" type="button" onclick="alertmsg()">Bid</button>
+							</div>
+					</div>
+					<div class="col-md-2 col-sm-12 col-12 col-12 col-lg-2">
+						
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- </section> -->
+
+	<div class="container" id="team">
+		<div class="section-header section-header--animated section-header--center section-header--medium-margin" >
+				
+
+		<div class="row">
+			<div class="col" data-aos="fade-up">
+				<div class="section-header section-header--animated section-header--center section-header--medium-margin" style="position: relative;bottom:50px;">
+					
+					<h2 class="determine token-detr determine2" style="background: linear-gradient(to right,#ff3300,#ff3300,#3333ff,#3333ff
+					);
+					-webkit-text-fill-color: transparent;
+					-webkit-background-clip: text; position:relative;top:50px;font-size:34px;">Doxxed</h2>
+					<div class="bg-title" style="opacity:0.2;">
+						Doxxed
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+		  <div class="row team-row-1" style="text-align:center;">
+		     <div class="col-md-12 col-12 col-lg-12 col-sm-12" style="text-align:center;">
+		        <a href="https://auditrate.tech/certificate/certificate_PiMini.html" target="_blank"><button data-aos="fade-up" class="btn btn-lg white-btn mybtn" style="background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white;" type="button">KYC</button></a> 
+		     </div>
+			<!--<div class="col-md-4 col-sm-12 col-lg-4 col-12 card-1" style="text-align: center;" data-aos="fade-up">-->
+			<!--  <img src="./img/1.jpg" class="myimage1" >-->
+			<!--  <h1 class="member-name">-->
+			<!--	Steven Kotler-->
+			<!--  </h1>-->
+			<!--  <p class="member-p" >-->
+			<!--	CEO/ Founder-->
+			<!--  </p>-->
+			<!--</div>-->
+			<!--<div class="col-md-4 col-sm-12 col-lg-4 col-12 card-1" style="text-align: center;" data-aos="fade-up">-->
+			<!--  <img src="./img/2.png" class="myimage1">-->
+			<!--  <h1 class="member-name">-->
+			<!--	Helen Koss-->
+			<!--  </h1>-->
+			<!--  <p class="member-p">-->
+			<!--	Designer-->
+			<!--  </p>-->
+			<!--</div>-->
+			<!--<div class="col-md-4 col-sm-12 col-lg-4 col-12 card-1" style="text-align: center;" data-aos="fade-up">-->
+			<!--  <img src="./img/3.jpg" class="myimage1">-->
+			<!--  <h1 class="member-name">-->
+			<!--	Charlotte Miller-->
+			<!--  </h1>-->
+			<!--  <p class="member-p">-->
+			<!--	Advisor-->
+			<!--  </p>-->
+			<!--</div>-->
+			
+		 <!-- </div>-->
+
+		 <!-- <div class="row team-row-2">-->
+			<!--<div class="col-md-2 col-sm-12 col-12 col-lg-2">-->
+
+			<!--</div>-->
+			<!--<div class="col-md-4 col-sm-12 col-12 col-lg-4 card-1" style="text-align: center;" data-aos="fade-up">-->
+			<!--  <img src="./img/4.png" class="myimage1" >-->
+			<!--  <h1 class="member-name">-->
+			<!--	Robert Jones-->
+			<!--  </h1>-->
+			<!--  <p class="member-p">-->
+			<!--	Developer-->
+			<!--  </p>-->
+			<!--</div>-->
+			<!--<div class="col-md-4 col-sm-12 col-12 col-lg-4 card-1" style="text-align: center;" data-aos="fade-up">-->
+			<!--  <img src="./img/5.jpg" class="myimage1">-->
+			<!--  <h1 class="member-name">-->
+			<!--	David Smith-->
+			<!--  </h1>-->
+			<!--  <p class="member-p">-->
+			<!--	Developer-->
+			<!--  </p>-->
+			<!--</div>-->
+			<!--<div class="col-md-2 col-sm-12 col-12 col-lg-2">-->
+			  
+			<!--</div>-->
+		 <!-- </div>-->
+		</div>
+	</div>
+	  <!-- </section> -->
+
+		
+<section id="last">
+		<footer class="footer">
+			<div class="container footer-cnt" style="text-align: center;">
+				
+				<div class="mobile-footer-links" style="text-align:center;">
+					<a href="https://discord.gg/bAFecEjdbq" class="footer-a">
+						<img src="./img/discord.png" style="height:40px;width:40px;" class="footer-link discord-footer">
+					</a>
+					<a href="https://t.me/PiMiniOfficial" class="footer-a">
+						<i class="fa fa-2x fa-telegram footer-link" style="height:30px;width:30px;" aria-hidden="true"></i>
+					</a>
+					<a href="https://twitter.com/PiMiniOfficial?t=6wPeF1eGJ0FTCymBotjcFA&s=09" class="footer-a">
+						<i class="fa fa-2x fa-twitter footer-link" style="height:30px;width:30px;" aria-hidden="true"></i>
+					</a>
+				</div><br>
+						<img  src="img/logo2.png" style="height:80px;width:130px;" class="footer-logo"alt="">
+						<span class="copyright" style="color:white;">Copyright @2022 PiMini.io</span>
+				
+					
+					
+					
+					
+					<div class="social-links">
+						<a href="https://discord.gg/bAFecEjdbq"><img src="./img/discord.png" style="height:25px;width:25px;" class="social-link opensea"></a><br>
+						<a href="https://t.me/PiMiniOfficial"><i class="fa fa-telegram social-link" aria-hidden="true"></i></a><br>
+  <a href="https://twitter.com/PiMiniOfficial?t=6wPeF1eGJ0FTCymBotjcFA&s=09"><i class="fa fa-twitter social-link" aria-hidden="true"></i></a><br>
+  
+					</div>
+			
+			</div>
+		</footer>
+
+	</div>
+</section>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')</script>
+
+	<script src="script.js"></script>
+
+	    <script>
+      setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+      }, 3000);
+    </script>
+
+	<script>
+		function alertmsg(){
+			alert("NFTs are not live yet. The official announcement will be made regarding it. Thank You");
+		}
+	</script>
+
+<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+
+
+
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+	  offset: 240,
+	  duration: 1000
+  });
+</script> -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>   
+	 AOS.init({
+	easing: 'ease-out-back',
+	duration: 800,
+	delay: 300,
+	once: true,
+ });
+ </script>
+
+</body>
+</html>
